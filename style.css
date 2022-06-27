@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.principal .celular img {
+    width: 430px;
+    margin-right: 40px;
+}
+
+.item {
+    margin: 20px;
+}
+
+.login {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.login .logo img {
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.login .perfil img {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    
+}
+
+.login1 a {
+    margin: 10px;
+}
+
+.login .p1 a {
+    background-color: #0494f4;
+    color: white;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.login .p2 a {
+    color: #0494f4;
+}
+
+.login1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(217, 217, 217);
+    flex-flow: column wrap;
+    margin-bottom: 10px;
+    padding: 50px 40px 25px 40px;
+    width: 270px;
+}
+
+.login2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(217, 217, 217);
+    flex-flow: row nowrap;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.login2 a {
+    color: #0398fb;
+    margin: 5px;
+}
+
+.login3 {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin: 10px;   
+}
+
+.login3 p {
+    font-size: 14px;
+}
+
+.icones {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 15px;
+
+}
+
+.icones .icone1 img {
+    width: 130px;
+    margin: 5px;
+}
+
+.icones .icone2 img {
+    width: 130px; 
+    margin: 5px; 
+}
+
